@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10231f">
+  <meta name="description" content="成都出发，白马王朗 2 天 1 夜周末自驾攻略：路线、天气、时间轴、预算和装备清单。">
+  <title>白马王朗 · 周末自驾手册</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到攻略正文</a>
+
+  <header class="hero" id="top">
+    <nav class="nav shell" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="返回顶部">
+        <span class="brand-mark" aria-hidden="true">↟</span>
+        <span>WANG LANG <small>周末自驾手册</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="#plan">行程</a>
+        <a href="#route">路线</a>
+        <a href="#budget">预算</a>
+        <a href="#packing">清单</a>
+      </div>
+      <a class="nav-cta" href="https://uri.amap.com/navigation?to=104.053139,32.92816,%E7%8E%8B%E6%9C%97%E5%9B%BD%E5%AE%B6%E7%BA%A7%E8%87%AA%E7%84%B6%E4%BF%9D%E6%8A%A4%E5%8C%BA&mode=car&policy=1&src=wanglang-guide&coordinate=gaode&callnative=0" target="_blank" rel="noreferrer">打开导航 ↗</a>
+    </nav>
+
+    <div class="hero-image" aria-hidden="true"></div>
+    <div class="hero-shade" aria-hidden="true"></div>
+
+    <div class="hero-content shell">
+      <div class="eyebrow"><span></span> 2026.11.21—11.22 · 两天一夜</div>
+      <h1>去岷山深处，<br><em>接住秋天的最后一束光。</em></h1>
+      <p class="hero-lead">成都出发，沿九绵高速抵达白马藏乡。第一天慢看天母湖与古寨，第二天把完整上午留给王朗原始森林。</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#plan">查看周末方案 <span>↓</span></a>
+        <a class="button ghost" href="tel:08165365777">先问景区路况</a>
+      </div>
+      <div class="hero-meta" aria-label="行程概览">
+        <div><strong>约 690 km</strong><span>往返总里程估算</span></div>
+        <div><strong>3.5–4.5 h</strong><span>单程含短休</span></div>
+        <div><strong>2300 m+</strong><span>高海拔初冬</span></div>
+      </div>
+    </div>
+
+    <div class="hero-note">主视觉为氛围示意 · 实景以当日天气为准</div>
+  </header>
+
+  <main id="main">
+    <section class="status-strip" aria-label="周末关键信息">
+      <div class="shell status-grid">
+        <div class="status-intro">
+          <span class="live-dot"></span>
+          <div><b>周末判断</b><small>11 月 13 日核验</small></div>
+        </div>
+        <button class="weather-chip active" type="button" data-weather="sat" aria-pressed="true">
+          <span>周六 21 日</span><strong>☀ 6–14℃</strong><small>县城预报 · 山区更冷</small>
+        </button>
+        <button class="weather-chip" type="button" data-weather="sun" aria-pressed="false">
+          <span>周日 22 日</span><strong>☀ 8–15℃</strong><small>县城预报 · 适合徒步</small>
+        </button>
+        <div class="status-verdict" id="weatherVerdict">
+          <span>建议</span><b>周六慢游藏寨，周日早进王朗</b>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell intro" id="plan">
+      <div class="section-heading split-heading">
+        <div>
+          <span class="kicker">THE WEEKEND PLAN</span>
+          <h2>不是赶景点，<br>是把节奏交给山里。</h2>
+        </div>
+        <p>这套顺序专门为周末设计：把不可控的长途驾驶放在第一天，把需要卡入园时间的王朗放在第二天清晨。即便遇到薄雪，也留有调整空间。</p>
+      </div>
+
+      <div class="preference-panel">
+        <div>
+          <span class="micro-label">你更想怎么玩？</span>
+          <h3>选择偏好，攻略会给出对应提醒</h3>
+        </div>
+        <div class="preference-buttons" role="group" aria-label="游玩偏好">
+          <button class="preference active" type="button" data-profile="photo" aria-pressed="true">摄影出片</button>
+          <button class="preference" type="button" data-profile="walk" aria-pressed="false">轻徒步</button>
+          <button class="preference" type="button" data-profile="family" aria-pressed="false">亲子 / 长辈</button>
+          <button class="preference" type="button" data-profile="culture" aria-pressed="false">人文体验</button>
+        </div>
+        <div class="preference-advice" id="preferenceAdvice" aria-live="polite">
+          <span class="advice-icon">◐</span>
+          <p><b>摄影优先：</b>天母湖把时间压到 15:30 前，低角度光线更有层次；王朗建议第一班观光车进山，薄雾和空镜概率更高。</p>
+        </div>
+      </div>
+
+      <div class="day-switcher" role="tablist" aria-label="两日行程">
+        <button class="day-tab active" id="tab-day1" type="button" role="tab" aria-selected="true" aria-controls="day1" data-day="day1"><span>DAY 01</span>湖与寨</button>
+        <button class="day-tab" id="tab-day2" type="button" role="tab" aria-selected="false" aria-controls="day2" data-day="day2"><span>DAY 02</span>森林日</button>
+      </div>
+
+      <div class="day-panel active" id="day1" role="tabpanel" aria-labelledby="tab-day1">
+        <div class="day-summary">
+          <span>11 月 21 日 · 周六</span>
+          <h3>成都 → 天母湖 → 扒昔加古寨</h3>
+          <p>总原则：天亮后进山、日落前停车，第一天不硬塞王朗。</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item featured">
+            <time>06:00</time><span class="timeline-dot"></span>
+            <div><span class="tag">出发</span><h4>成都出发，加满油再上高速</h4><p>建议 5:50 集合。路线以 G5 / 成绵通道衔接 G8513 九绵高速为主，避开老省道的长距离弯道。</p><small>前一晚把导航目的地设为“天母湖观景区域”，不是直接冲景区大门。</small></div>
+          </article>
+          <article class="timeline-item">
+            <time>08:20</time><span class="timeline-dot"></span>
+            <div><span class="tag">短休</span><h4>服务区休息 15 分钟</h4><p>驾驶员换人、补热水。最后一段海拔上升明显，不建议疲劳驾驶。</p></div>
+          </article>
+          <article class="timeline-item">
+            <time>10:20</time><span class="timeline-dot"></span>
+            <div><span class="tag">补给</span><h4>白马王朗服务区看路况</h4><p>服务区海拔约 2300 米，现阶段可停车、如厕和购买基础物资。下车先感受温度，再决定是否加保暖层。</p></div>
+          </article>
+          <article class="timeline-item featured">
+            <time>11:00</time><span class="timeline-dot"></span>
+            <div><span class="tag">湖景</span><h4>天母湖：只停安全观景位</h4><p>湖岸与彩林适合广角和倒影。近期实景已出现彩林与薄雪同框；不要在弯道、隧道口或无停车标线处临停。</p><small>建议停留 45–60 分钟，遇大风或阴天则缩短。</small></div>
+          </article>
+          <article class="timeline-item">
+            <time>12:30</time><span class="timeline-dot"></span>
+            <div><span class="tag">午餐</span><h4>到藏寨吃一顿热的</h4><p>优先点土火锅、荞麦饼、洋芋糍粑、腊味和山野菜。蜂蜜酒只给非驾驶员浅尝。</p></div>
+          </article>
+          <article class="timeline-item featured">
+            <time>14:00</time><span class="timeline-dot"></span>
+            <div><span class="tag">人文</span><h4>扒昔加古寨：慢走木楼与河谷</h4><p>古寨沿夺补河而建，适合看传统木构、曹盖面具与白马人生活场景。先征得同意再拍人像与室内。</p><small>若民宿当晚组织圆圆舞或篝火，入住时再确认；不把临时活动写死。</small></div>
+          </article>
+          <article class="timeline-item">
+            <time>17:20</time><span class="timeline-dot"></span>
+            <div><span class="tag">收车</span><h4>天黑前入住，检查第二天装备</h4><p>下载离线地图、给相机和充电宝充电、备好保温杯与简餐。山区日落后降温快，不再开车追夜景。</p></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="day-panel" id="day2" role="tabpanel" aria-labelledby="tab-day2" hidden>
+        <div class="day-summary">
+          <span>11 月 22 日 · 周日</span>
+          <h3>王朗原始森林 → 成都</h3>
+          <p>总原则：卡第一批入园、线路听现场、15:00 前返程。</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <time>07:20</time><span class="timeline-dot"></span>
+            <div><span class="tag">早餐</span><h4>吃饱但别过量，退房装车</h4><p>保温杯灌热水，随身带巧克力、坚果或饭团。景区内补给不稳定，不把午餐完全押在服务点。</p></div>
+          </article>
+          <article class="timeline-item featured">
+            <time>08:20</time><span class="timeline-dot"></span>
+            <div><span class="tag">关键</span><h4>抵达游客中心，先问三件事</h4><p>当天开放哪条沟、末班观光车时间、木栈道是否结冰。私家车停游客中心，核心区换乘景区观光车。</p><small>公开平台显示 09:00 开园、14:00 停止入园；仍以当天公告为准。</small></div>
+          </article>
+          <article class="timeline-item">
+            <time>09:00</time><span class="timeline-dot"></span>
+            <div><span class="tag">进山</span><h4>第一班车进入森林腹地</h4><p>车上先别睡：高山植被、河谷和雪线会逐渐展开。下车后先慢走 10 分钟适应海拔。</p></div>
+          </article>
+          <article class="timeline-item featured">
+            <time>09:50</time><span class="timeline-dot"></span>
+            <div><span class="tag">主线</span><h4>白沙沟 / 甘海子方向轻徒步</h4><p>若当天开放，可选约 3 公里的森林步道，边走边拍约 2 小时。遇积雪、结冰或封控，立刻改走景区开放的短线。</p><small>保护区不是“随意穿越地”；不要离开木栈道，不追动物，不投喂。</small></div>
+          </article>
+          <article class="timeline-item">
+            <time>12:10</time><span class="timeline-dot"></span>
+            <div><span class="tag">补能</span><h4>避风处简餐，垃圾全部带走</h4><p>控制在 30 分钟内。山里一旦起风体感会骤降，湿冷时不要长时间静坐。</p></div>
+          </article>
+          <article class="timeline-item">
+            <time>13:00</time><span class="timeline-dot"></span>
+            <div><span class="tag">备选</span><h4>按现场开放情况补一条短线</h4><p>白熊沟、竹根岔沟等是否接待以景区调度为准。不要为了“打卡完整”错过返程观光车。</p></div>
+          </article>
+          <article class="timeline-item featured">
+            <time>14:30</time><span class="timeline-dot"></span>
+            <div><span class="tag">返程</span><h4>离开景区，天黑前通过山路段</h4><p>计划 15:00 前正式返蓉，途中至少休息一次。预计 19:00–20:00 回到成都，具体以实时路况为准。</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section route-section" id="route">
+      <div class="shell">
+        <div class="section-heading light-heading">
+          <span class="kicker">THE DRIVE</span>
+          <h2>把最难的路，<br>留在天亮的时候。</h2>
+          <p>九绵高速全线通车后，成都至白马王朗以高速为主；接近藏乡和景区仍有高海拔连接道路，初冬要把冰雪当作变量。</p>
+        </div>
+
+        <div class="route-map" aria-label="成都到王朗的路线示意">
+          <svg viewBox="0 0 900 330" role="img" aria-labelledby="routeTitle routeDesc">
+            <title id="routeTitle">成都到王朗路线示意</title>
+            <desc id="routeDesc">从成都经绵阳、江油、平武、白马王朗服务区，到达王朗游客中心。</desc>
+            <path class="route-shadow" d="M70 250 C160 185 220 195 300 160 S430 85 520 125 S650 190 735 120 S820 55 845 76"/>
+            <path class="route-line" d="M70 250 C160 185 220 195 300 160 S430 85 520 125 S650 190 735 120 S820 55 845 76"/>
+            <g class="map-stop"><circle cx="70" cy="250" r="10"/><text x="70" y="286">成都</text><small x="70" y="306">06:00</small></g>
+            <g class="map-stop"><circle cx="300" cy="160" r="8"/><text x="300" y="197">绵阳 / 江油</text><small x="300" y="217">高速衔接</small></g>
+            <g class="map-stop"><circle cx="520" cy="125" r="8"/><text x="520" y="90">平武</text><small x="520" y="109">进入岷山</small></g>
+            <g class="map-stop"><circle cx="735" cy="120" r="8"/><text x="735" y="157">白马服务区</text><small x="735" y="177">补给 / 看路况</small></g>
+            <g class="map-stop destination"><circle cx="845" cy="76" r="13"/><text x="845" y="40">王朗</text><small x="845" y="59">游客中心</small></g>
+          </svg>
+        </div>
+
+        <div class="route-cards">
+          <article><span>01</span><h3>导航分段设</h3><p>去程先导航“白马王朗服务区”，确认天气与补给后，再导航“王朗国家级自然保护区”。避免名称相近导致走错入口。</p></article>
+          <article><span>02</span><h3>车型不必卷</h3><p>正常无雪时，底盘状况良好的家用轿车即可。关键是轮胎、刹车、玻璃水和驾驶员状态，不是 SUV 标签。</p></article>
+          <article><span>03</span><h3>冰雪不硬扛</h3><p>后备箱备防滑链并提前练习安装。若现场要求装链、封路或大雪持续，服从管控，改游藏寨与天母湖安全区域。</p></article>
+        </div>
+
+        <div class="route-actions">
+          <a class="button sand" href="https://uri.amap.com/navigation?to=104.053139,32.92816,%E7%8E%8B%E6%9C%97%E5%9B%BD%E5%AE%B6%E7%BA%A7%E8%87%AA%E7%84%B6%E4%BF%9D%E6%8A%A4%E5%8C%BA&mode=car&policy=1&src=wanglang-guide&coordinate=gaode&callnative=0" target="_blank" rel="noreferrer">高德一键导航 ↗</a>
+          <button class="button outline-light" id="copyCoords" type="button" data-coords="104.053139, 32.92816">复制坐标</button>
+          <span class="copy-feedback" id="copyFeedback" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell experience-section">
+      <div class="section-heading split-heading">
+        <div><span class="kicker">MAKE IT FEEL REAL</span><h2>体验感，藏在<br>五个小决定里。</h2></div>
+        <p>白马王朗真正好玩的不是“看完几个点”，而是让森林、湖泊与白马人文化在两天里形成完整的情绪曲线。</p>
+      </div>
+      <div class="experience-grid">
+        <article class="experience-card hero-card"><span>01</span><h3>住进寨子，不住回县城</h3><p>扒昔加古寨或厄哩寨都比来回折返更有氛围。优先确认独立卫浴、取暖、停车位和次日早餐时间。</p><b>把通勤时间换成山里清晨</b></article>
+        <article class="experience-card"><span>02</span><h3>第一口要吃热</h3><p>到达后先吃土火锅或热汤，再开始逛寨。高海拔初冬空腹吹风，体验会迅速打折。</p></article>
+        <article class="experience-card"><span>03</span><h3>和主人聊十分钟</h3><p>问一问圆圆舞、曹盖面具与白马人服饰；尊重边界，比“只拍照”更容易获得真实记忆。</p></article>
+        <article class="experience-card"><span>04</span><h3>留一个无手机时段</h3><p>在森林步道里关掉通知 30 分钟，只听水声、风声和脚下的木栈道。</p></article>
+        <article class="experience-card"><span>05</span><h3>不追野生动物</h3><p>看到痕迹已是幸运。保持距离、不投喂、不离开开放步道，是进入大熊猫国家公园片区最基本的礼貌。</p></article>
+      </div>
+    </section>
+
+    <section class="section budget-section" id="budget">
+      <div class="shell budget-layout">
+        <div class="budget-copy">
+          <span class="kicker">BUDGET PLANNER</span>
+          <h2>预算不猜，<br>现场算给你看。</h2>
+          <p>默认按 2 人 1 车、1 间舒适型藏寨民宿估算。票务、油价、住宿与高速费都可自己修改。</p>
+          <div class="budget-note"><span>!</span><p>默认门票 + 观光车按公开平台近期参考价 138 元/人计入，不视为官方报价。出发前请电话复核。</p></div>
+        </div>
+        <div class="calculator">
+          <div class="calc-inputs">
+            <label>出行人数<input id="people" type="number" min="1" max="8" value="2"><span>人</span></label>
+            <label>住宿房间<input id="rooms" type="number" min="1" max="4" value="1"><span>间</span></label>
+            <label>往返里程<input id="distance" type="number" min="400" max="1200" value="690"><span>km</span></label>
+            <label>百公里油耗<input id="consumption" type="number" min="3" max="20" step="0.1" value="8"><span>L</span></label>
+            <label>油价<input id="fuelPrice" type="number" min="5" max="12" step="0.1" value="7.5"><span>元/L</span></label>
+            <label>往返高速费<input id="toll" type="number" min="0" max="1000" value="320"><span>元</span></label>
+            <label>民宿每间<input id="roomPrice" type="number" min="100" max="1500" value="360"><span>元</span></label>
+            <label>票车每人<input id="ticket" type="number" min="0" max="500" value="138"><span>元</span></label>
+            <label>餐饮每人<input id="food" type="number" min="50" max="1000" value="220"><span>元</span></label>
+          </div>
+          <div class="calc-result">
+            <div><span>总预算估算</span><strong>¥<b id="totalBudget">2,030</b></strong></div>
+            <div class="per-person"><span>约每人</span><b>¥<span id="perPerson">1,015</span></b></div>
+          </div>
+          <div class="cost-bars" id="costBars" aria-label="费用构成"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell packing-section" id="packing">
+      <div class="section-heading split-heading">
+        <div><span class="kicker">PACK SMART</span><h2>勾完再走，<br>清单会记住进度。</h2></div>
+        <div class="packing-progress-wrap"><div class="progress-ring" id="progressRing"><span id="packingCount">0/12</span></div><p>勾选状态保存在当前浏览器。优先处理带“关键”标记的项目。</p></div>
+      </div>
+      <div class="packing-grid" id="packingList">
+        <label class="check-card critical"><input type="checkbox" data-item="chain"><span class="fake-check"></span><span><b>防滑链</b><small>关键 · 对应轮胎尺寸，提前练一次</small></span></label>
+        <label class="check-card critical"><input type="checkbox" data-item="tire"><span class="fake-check"></span><span><b>轮胎 / 刹车检查</b><small>关键 · 胎压、磨损、刹车油</small></span></label>
+        <label class="check-card critical"><input type="checkbox" data-item="coat"><span class="fake-check"></span><span><b>防风保暖层</b><small>关键 · 羽绒或抓绒 + 防风外壳</small></span></label>
+        <label class="check-card"><input type="checkbox" data-item="shoes"><span class="fake-check"></span><span><b>防滑徒步鞋</b><small>木栈道湿滑，普通平底鞋不够</small></span></label>
+        <label class="check-card"><input type="checkbox" data-item="map"><span class="fake-check"></span><span><b>离线地图</b><small>成都—平武—王朗沿线先下载</small></span></label>
+        <label class="check-card"><input type="checkbox" data-item="water"><span class="fake-check"></span><span><b>保温杯与热水</b><small>每人至少 500–750ml</small></span></label>
+        <label class="check-card"><input type="checkbox" data-item="snack"><span class="fake-check"></span><span><b>路餐</b><small>饭团、坚果、巧克力，避免全是甜食</small></span></label>
+        <label class="check-card"><input type="checkbox" data-item="power"><span class="fake-check"></span><span><b>充电宝</b><small>低温掉电快，相机备电也要带</small></span></label>
+        <label class="check-card"><input type="checkbox" data-item="medicine"><span class="fake-check"></span><span><b>常用药</b><small>晕车、肠胃、创可贴，按个人需要</small></span></label>
+        <label class="check-card"><input type="checkbox" data-item="id"><span class="fake-check"></span><span><b>身份证与优惠证件</b><small>老人、军人、残障等证件随身</small></span></label>
+        <label class="check-card"><input type="checkbox" data-item="cash"><span class="fake-check"></span><span><b>少量现金</b><small>山区网络波动时更从容</small></span></label>
+        <label class="check-card"><input type="checkbox" data-item="bag"><span class="fake-check"></span><span><b>垃圾袋</b><small>路餐垃圾与湿装备分开装</small></span></label>
+      </div>
+      <button class="text-button" id="resetPacking" type="button">重置清单</button>
+    </section>
+
+    <section class="section safety-section">
+      <div class="shell safety-layout">
+        <div><span class="kicker">BEFORE YOU GO</span><h2>出发前 24 小时，<br>只确认这四件事。</h2></div>
+        <ol class="safety-list">
+          <li><span>01</span><div><b>打景区电话</b><p>问开放线路、票价、首末班观光车和积雪情况。</p><a href="tel:08165365777">0816-5365777 ↗</a></div></li>
+          <li><span>02</span><div><b>看高速路况</b><p>关注四川高速与九绵高速临时管控，尤其是清晨低温时段。</p></div></li>
+          <li><span>03</span><div><b>让民宿确认</b><p>停车、取暖、晚餐、早餐时间，以及篝火 / 圆圆舞是否当晚举行。</p></div></li>
+          <li><span>04</span><div><b>做退路决定</b><p>若持续降雪或结冰，取消王朗深处徒步，保留天母湖安全观景与藏寨体验。</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section shell sources-section">
+      <div class="section-heading">
+        <span class="kicker">SOURCES & NOTES</span>
+        <h2>信息来源与边界</h2>
+      </div>
+      <div class="sources-grid">
+        <a href="https://sichuan.scol.com.cn/ggxw/202611/83354050.html" target="_blank" rel="noreferrer"><span>近期实景</span><b>四川在线：11 月 8 日彩林与薄雪</b><i>↗</i></a>
+        <a href="https://www.scgs.com.cn/content/195119.html" target="_blank" rel="noreferrer"><span>沿途补给</span><b>川高集团：白马王朗服务区开放信息</b><i>↗</i></a>
+        <a href="https://you.ctrip.com/sight/pingwu3134/61304.html" target="_blank" rel="noreferrer"><span>开放信息</span><b>携程：开放时间、电话与优待参考</b><i>↗</i></a>
+        <a href="https://www.weather.com.cn/weather/101270407.shtml" target="_blank" rel="noreferrer"><span>临行复核</span><b>中国天气网：平武县天气</b><i>↗</i></a>
+      </div>
+      <p class="source-disclaimer">攻略于 2026 年 11 月 13 日整理。天气卡使用平武县预报，不能等同于高海拔景区实况；票价、观光车线路、活动、停车及开放状态均以景区与当地当日公示为准。</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <div><span class="brand-mark">↟</span><b>白马王朗 · 周末自驾手册</b></div>
+      <p>慢一点，山里会把更多细节还给你。</p>
+      <a href="#top">回到顶部 ↑</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
